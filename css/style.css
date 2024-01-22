@@ -552,8 +552,7 @@ footer {
   }
 
   .classHeader {
-    gap: 0px;
-    width: 100%;
+    gap: 50%;
     justify-content: center;
   }
 
@@ -564,7 +563,6 @@ footer {
     border-bottom: 2px solid #0065fc;
     color: #0065fc;
     margin-right: 0px;
-    width: 50%;
   }
 
   .sousClassHeader2 {
@@ -572,7 +570,6 @@ footer {
     text-decoration: none;
     border-top: none;
     border-bottom: 2px solid #f2f2f2;
-    width: 50%;
   }
 
   /** Recherche et filtre **/
