@@ -624,6 +624,7 @@ footer {
   .mobileFiltre {
     gap: 10px;
     width: auto;
+    min-height: 50px;
   }
 
   .filtrePosition {
