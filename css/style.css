@@ -313,7 +313,6 @@ header {
   flex-direction: column;
   justify-content: space-between;
   box-sizing: border-box;
-  gap: 10px;
 }
 
 .hebergementsTitle {
@@ -392,7 +391,6 @@ header {
   border-radius: 20px;
   width: 100%;
   filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-  max-height: 439px;
   max-width: 297.5px;
 }
 
@@ -406,7 +404,11 @@ header {
 }
 
 .textActivity {
-  padding: 0px 20px;
+    min-height: 2em;
+  padding: 1em 15px;
+  margin: 0em 0em;
+  display: flex;
+  align-items: center;
 }
 
 /* Footer */
@@ -552,8 +554,9 @@ footer {
   }
 
   .classHeader {
-    gap: 50%;
+    gap: 0%;
     justify-content: center;
+    width: 100%;
   }
 
   .sousClassHeader1 {
@@ -563,6 +566,7 @@ footer {
     border-bottom: 2px solid #0065fc;
     color: #0065fc;
     margin-right: 0px;
+    width: 50%;
   }
 
   .sousClassHeader2 {
@@ -570,6 +574,7 @@ footer {
     text-decoration: none;
     border-top: none;
     border-bottom: 2px solid #f2f2f2;
+    width: 50%;
   }
 
   /** Recherche et filtre **/
