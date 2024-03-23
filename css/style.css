@@ -556,17 +556,7 @@ footer {
     width: 100%;
   }
 
-  .sousClassHeader1 {
-    text-align: center;
-    text-decoration: none;
-    border-top: none;
-    border-bottom: 2px solid #0065fc;
-    color: #0065fc;
-    margin-right: 0px;
-    width: 50%;
-  }
-
-  .sousClassHeader2 {
+  .sousClassHeader {
     text-align: center;
     text-decoration: none;
     border-top: none;
